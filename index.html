@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Dashboard </title>
+</head>
+<body>
+
+    <table>
+        <tr>
+
+            <td rowspan="3" class="sidebar">
+                <div class="profContainer">
+                    <img src="myPic.jpg" alt="" class="profPic">
+                    <p class="profText">Yuichi Cañete</p>
+                </div>
+                <a href="index.html" class="link" style="color: white;">Dashboard</a>
+                <a href="profile.html" class="link">Profile</a>
+                <a href="settings.html" class="link">Settings</a>
+            </td>
+            <td>
+
+                <div class="boxContainer">
+                    <div class="title">Balance</div>
+                    <div class="box">
+                        <p class="boxContents">Total: <span style="color: lime;">$1250</span></p>
+                        <p class="boxContents">Profit: <span style="color: red;">-$175</span></p>
+                    </div>  
+                </div>
+
+            </td>
+            <td rowspan="2" class="charts">
+
+                <div class="boxContainer">
+                    <div class="title">Charts</div>
+                    <div class="box" style="height: 575px;">
+                        <p class="boxContents">Expenses</p>
+                        <div class="chartContainer center"><img src="pie_chart.png" alt="" class="chartPic"></div>
+                        <p class="boxContents">Income</p>
+                        <div class="chartContainer center"><img src="bar_graph.png" alt="" class="chartPic"></div>
+                        
+                    </div>  
+                </div>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+
+                <div class="boxContainer">
+                    <div class="title">Recent Transaction</div>
+                    <div class="box" style="border-radius: 0 10px 0 0;">
+                        <p class="boxContents">Allowance <span style="color: lime;">+$500</span></p>
+                        <p class="boxContents">Lunch <span style="color: red;">-$125</span></p>
+                        <p class="boxContents">School supplies <span style="color: red;">-$25</span></p>
+                        <p class="boxContents">Part time <span style="color: lime;">+$1</span></p>
+                        <p class="boxContents">Allowance <span style="color: lime;">+$500</span></p>
+                        <p class="boxContents">Lunch <span style="color: red;">-$125</span></p>
+                        <p class="boxContents">School supplies <span style="color: red;">-$25</span></p>
+                        <p class="boxContents">Part time <span style="color: lime;">+$1</span></p>
+                    </div>  
+                    <div class="transBox">
+                        <input type="text" placeholder="Add new Transaction" class="textField">
+                        <input type="text" placeholder="Amount" class="textField">
+                        <button class="button" style="border: none;">+</button>
+
+                    </div>
+                </div>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" value="Sept 29, 2023" class="textField"><div class="triangle"></div>
+                <input type="text" value="Type" class="textField"><div class="triangle"></div>
+                <input type="text" value="Category" class="textField"><div class="triangle"></div>
+            </td>
+            <td class="center"> 
+                <div class="radContainer">
+
+                    <input type="radio" name="timeFilter" value="daily" class="radButton" id="daily">
+                    <label for="daily" class="radLabel"><span class="radBg">Daily</span></label>
+
+                    <input type="radio" name="timeFilter" value="weekly" class="radButton" id="weekly">
+                    <label for="weekly" class="radLabel"><span class="radBg">Weekly</span></label>
+
+                    <input type="radio" name="timeFilter" value="monthly" class="radButton" id="monthly">
+                    <label for="monthly" class="radLabel"><span class="radBg">Monthly</span></label>
+
+                    <input type="radio" name="timeFilter" value="yearly" class="radButton" id="yearly">
+                    <label for="yearly" class="radLabel"><span class="radBg">Yearly</span></label>
+
+                    <input type="radio" name="timeFilter" value="overall" class="radButton" id="overall">
+                    <label for="overall" class="radLabel"><span class="radBg">Overall</span></label>
+
+            
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    
+
+    
+    
+    
+          
+    
+</body>
+</html>

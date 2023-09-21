@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Settings</title>
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <td rowspan="3" class="sidebar">
+                <div class="profContainer">
+                    <img src="myPic.jpg" alt="" class="profPic">
+                    <p class="profText">Yuichi Cañete</p>
+                </div>
+                <a href="index.html" class="link">Dashboard</a>
+                <a href="profile.html" class="link">Profile</a>
+                <a href="settings.html" class="link" style="color: white;">Settings</a>
+            </td>
+
+            <td class="setLabel">
+                    
+                <p style="margin-bottom: 25px;">Theme</p>
+                <p>Dark Mode</p>
+
+                <button class="button" style="width: 155px;">Customize Dashboard</button>
+
+
+            </td>
+
+            <td >
+                
+                <div class="radContainer" style="width: 150px;">
+    
+                    <input type="radio" name="theme" value="plain" class="radButton" id="plain">
+                    <label for="plain" class="radLabel"><span class="radBg">Plain</span></label>
+
+                    <input type="radio" name="theme" value="city" class="radButton" id="city">
+                    <label for="city" class="radLabel"><span class="radBg">City</span></label>
+
+                    <input type="radio" name="theme" value="trees" class="radButton" id="trees">
+                    <label for="trees" class="radLabel"><span class="radBg">Trees</span></label>
+
+                </div>
+
+                <div class="radContainer" style="width: 75px;">
+    
+                    <input type="radio" name="darkMode" value="of" class="radButton" id="on">
+                    <label for="on" class="radLabel"><span class="radBg">on</span></label>
+            
+                    <input type="radio" name="darkMode" value="off" class="radButton" id="off">
+                    <label for="off" class="radLabel"><span class="radBg">off</span></label>
+
+                </div>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+</body>
+</html>
